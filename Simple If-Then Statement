@@ -1,0 +1,18 @@
+// String Comparison
+            Console.WriteLine("\nPlease enter your favorite fruit (e.g., apple, banana):");
+            string favoriteFruit = Console.ReadLine().ToLower(); // Convert input to lowercase for easy comparison
+
+            if (favoriteFruit == "apple")
+            {
+                Console.WriteLine("You love apples!");
+            }
+            else if (favoriteFruit == "banana")
+            {
+                Console.WriteLine("Bananas are great!");
+            }
+            else
+            {
+                Console.WriteLine($"So you like {favoriteFruit}? Interesting choice!");
+            }
+        }
+    }
